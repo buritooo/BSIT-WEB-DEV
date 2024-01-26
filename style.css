@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 50vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -165,6 +165,9 @@ section {
 #profile {
   display: flex;
   justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
   gap: 5rem;
   height: 80vh;
 }
@@ -265,11 +268,12 @@ section {
 
 #about {
   position: relative;
+  height: 70vh;
 }
 
 .about-container {
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
   margin-top: column;
 }
 
@@ -324,7 +328,7 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  prefix: 1rem;
 }
 
 .experience-details-container {
@@ -338,7 +342,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1rem;
   justify-content: space-around;
 }
 
@@ -386,7 +390,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 100vh;
 }
 
 .contact-info-upper-container {
@@ -423,7 +427,7 @@ article .icon {
 /* Footer Section */
 
 footer {
-  height: 26vh;
+  height: 0vh;
   margin: 0 1rem;
 }
 
