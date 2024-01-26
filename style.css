@@ -171,8 +171,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 100px;
+  width: 100px;
   margin: auto 0;
 }
 
@@ -311,7 +311,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 1rem;
 }
 
 /* Experience Section */
@@ -344,7 +344,7 @@ section {
 
 article {
   display: flex;
-  width: 10rem;
+  width: 5rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
@@ -365,9 +365,9 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 60%;
-  height: 60%;
+  border-radius: 4rem;
+  width: 50%;
+  height: 50%;
 }
 
 .project-title {
